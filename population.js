@@ -46,10 +46,7 @@ function Population(popSliderValue) {
     };
     //provjeravam uvjet ima li podatka uopće u maxfitu i ako ima, šaljem vrijednost da se prikaže na ekranu
     this.getFit = function () {
-        if (typeof this.maxfit !== "undefined") {
         return this.sendMaxFit;
-        }
-        return 0;
     };
     // funkcija za selekciju "dobrih" gena za sljedeću generaciju
     this.selection = function () {

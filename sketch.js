@@ -87,7 +87,6 @@ function draw() {
     text("Generation lifespan: " + count, 40, 50);
     text("Current generation: " + currGen, 40, 80);
     tempMaxFit = floor(population.getFit());
-    tempMaxFit = round(map(tempMaxFit, 0, 481203, 0, 1000));
     text("Current generation max fitness: " + tempMaxFit, 40, 110);
     fill(255, 255, 255);
     //svaki frame povećavam count za jedan te time pratim životni ciklus populacije
